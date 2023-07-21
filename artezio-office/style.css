@@ -1,0 +1,81 @@
+.container{
+    width: 1440px;
+    
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    height: auto;
+    background-color: rgb(227,22,51);
+
+}
+.logo
+{
+    margin-bottom: 7px;
+    margin-top: 7px;
+    margin-left: 50px;
+}
+.office_plan_btn{
+    text-decoration: none;
+    padding-top: 20px;
+    padding-left: 10px;
+    color: rgb(201, 200, 200);
+    font-size: larger;
+    font-family: system-ui;
+    letter-spacing: 1px;
+}
+
+.employees_btn{
+    text-decoration: none;
+    padding-top: 20px;
+    padding-left: 15px;
+    color: rgb(201, 200, 200);
+    font-size: larger;
+    font-family: system-ui;
+    letter-spacing: 1px;
+}
+
+.main_info{
+    margin-top: 35px;
+    background-color: rgb(248, 249, 250);
+    height: 500px;
+   
+}
+h1{
+    padding-top: 80px;
+    color: rgb(48, 48, 48);
+    margin-left: 55px;
+    font-family: system-ui;
+    font-size: 53px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+h2
+{
+    color: rgb(48, 48, 48);
+    margin-top: 10px;
+    margin-left: 55px;
+    font-family: system-ui;
+    font-size: revert;
+    font-size: 27px;
+    
+}
+.blue_btn{
+    background: rgb(0, 111, 248);
+    border-radius: 7px;
+    margin-left: 53px;
+    margin-right: 1100px;
+    margin-top: 10px;   
+
+}
+.a_blue_btn{
+    color: white;
+    text-decoration: none;
+    font-family: system-ui;
+    font-size: revert;
+    font-size: 27px;
+   
+}
+.test{
+    padding: 18px 20px 18px 20px;
+}

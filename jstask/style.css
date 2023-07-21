@@ -1,0 +1,112 @@
+.container{
+    width: 1300px;
+    
+    margin: 0 auto;
+}
+
+.header{
+  font-size: 18px;
+    font-family:monospace;
+    margin: 0 auto;
+    background-color: white;
+    border-bottom: 3px solid rgb(205, 200, 200);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navig2{
+
+    text-decoration: none;
+    padding:0 20px 0 18px;
+    color: rgb(121, 116, 116);
+}
+.navig2:hover{
+    text-decoration: underline;
+    color: rgb(63, 61, 61);
+}
+
+.main_h1{
+font-weight: revert;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main_content{
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.description{
+    color: rgb(84, 84, 84);
+    padding:5px 0 5px 10px;
+   background-color: rgb(241, 238, 238); 
+   margin-bottom: 40px;
+}
+.main_h2{
+    font-family: monospace;
+    font-style: italic;
+   font:900;
+    font-weight: bolder;
+}
+.insert_img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    }
+
+
+.image2{
+    width: 140px;
+    padding-left: 40px;
+    margin-bottom: 5px;
+}
+.image{
+    padding-left: 38px;
+    width: 175px;
+    margin-bottom: 5px;
+}
+.box1{
+    padding-right: 230px;
+    text-align: left;
+}
+.box3{
+    
+    padding-left: 230px;
+}
+.box2{
+    
+}
+.ilBox{
+padding-top: 3px;
+padding-bottom: 6px;
+}
+
+.ulBox{
+    font-family: monospace;
+   font-style: oblique;
+   font-size: 16px;
+   font-weight: 400;
+}
+
+
+
+
+
+.footer {
+    position: relative;
+    padding-top: 30px;
+}
+
+.next_page{
+    position: absolute;
+    right: 40px;
+    top: 29px;
+    background: #fff;
+    padding: 0 10px;
+    font-size: 18px;
+    
+}
+ 
+.n_page{
+color: rgb(38, 163, 163);
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="taska1.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+</head>
+
+<body>
+    <section class="header">
+        <div class="navig">
+            <a href="index.html" class="navig2">ГЛАВНАЯ</a>
+            <a href="test.html" class="navig2">ЗАДАНИЯ</a>
+        </div>
+        <a href="#" class="navig2">НАСТРОЙКИ</a>
+    </section>
+
+    <section class="main_content">
+        <h1 class="main_h1">
+            <span style="color:rgb(121, 116, 116); font-size:larger">
+                |</span>  Список заданий
+        </h1>
+    </section>
+
+    <section class="task1">
+        <h3 class="main_h1"> <span style="color:rgb(121, 116, 116); font-size:larger">
+            |</span>
+        Задание 1. Ввод символов
+    </h3>
+
+        <div><input oninput="getCount(this)" type="text" id="task1">
+            <span id="answer1">Количество символов:0</span>
+        </div>
+    </section>
+
+    <section class="task2">
+        <h3 class="main_h1"> <span style="color:rgb(121, 116, 116); font-size:larger">
+                |</span>
+            Задание 2. Ввод текста
+        </h3>
+
+        <textarea oninput="getTextInfo(this)" name="task2" id="textarea_task2" cols="30" rows="1">
+
+        </textarea>
+        <div class="answer2" id="signCountTask2">
+
+            Количество символов:0
+
+        </div>
+
+        <div class="answer2" id="wordNoSpaceCountTask2">
+
+            Количество слов:0
+
+        </div>
+        <div class="answer2" id="textCountTask2">
+
+            Количество строк:0
+
+        </div>
+    </section >
+
+   
+    <section class="task3">
+    <h3 class="main_h1"> <span style="color:rgb(121, 116, 116); font-size:larger">
+        |</span>
+    Задание 3. Проверка ввода
+    </h3>
+    <input oninput="validInput(this, 'validArea')" id="task3" type="text">
+    <div id="validArea">
+        Осталось символов:10
+    </div>
+    </section>
+
+    <section class="task4">
+        <h3 class="main_h1"> <span style="color:rgb(121, 116, 116); font-size:larger">
+            |</span>
+        Задание 4. Ограничение ввода
+        </h3>
+        <textarea oninput="validInput4(this)"  name="task4" id="textarea_task4" cols="30" rows="10"></textarea>
+       <input id="checkBoxInputId" type="checkbox"> <span>Запретить превышение</span>
+        
+        <div id="validArea4">
+            Осталось символов:10
+        </div>
+        
+    </section>
+
+    <section class="task5">
+        <h3 class="main_h1"> <span style="color:rgb(121, 116, 116); font-size:larger">
+            |</span>
+        Задание 5. Слайдер картинок
+        </h3>
+
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="html.png" alt="#" class="img1"></div>
+              <div class="swiper-slide"><img src="css.png" alt="#" class="img1"></div>
+              <div class="swiper-slide"><img src="js.jpg" alt="#" class="img1"></div>
+            </div>  
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+       
+          </div>
+    </section>
+    <section class="task6">
+        <div id="task6-container">
+        <p id="today"><span>Сегодня:</span></p>
+        <p>Дата события: <select id="day-select"></select>
+            <select id="month-select">
+                <option value="m0">январь</option>
+                <option value="m1">февраль</option>
+                <option value="m2">март</option>
+                <option value="m3">апрель</option>
+                <option value="m4">май</option>
+                <option value="m5">июнь</option>
+                <option value="m6">июль</option>
+                <option value="m7">август</option>
+                <option value="m8">сентябрь</option>
+                <option value="m9">октябрь</option>
+                <option value="m10">ноябрь</option>
+                <option value="m11">декабрь</option>
+            </select><select id="year-select">
+
+            </select>
+        </p>
+        <p id="event-happened">
+            Событие произошло: <span></span> назад
+        </p>
+       
+    </div>
+    </section>
+    
+
+   <section class="task7"><h3 class="main_h1"> <span style="color:rgb(121, 116, 116); font-size:larger">
+            |</span>
+        Задание 7. Прямоугольник
+        </h3>
+    <div id="task7-container">
+        
+        <div class="rectangle" tabindex="0"></div>
+       
+    </div>
+    </section>
+    
+
+       <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+       <script src="testik.js"></script>
+
+
+    </body>
+
+</html>
