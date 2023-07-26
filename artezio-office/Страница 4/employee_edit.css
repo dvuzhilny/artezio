@@ -1,0 +1,214 @@
+.container {
+    max-width: 1440px;
+    min-width: 900px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    height: auto;
+    background-color: rgb(227, 22, 51);
+
+}
+
+.logo {
+    margin-bottom: 7px;
+    margin-top: 7px;
+    margin-left: 50px;
+}
+
+.office_plan_btn {
+    text-decoration: none;
+    padding-top: 20px;
+    padding-left: 10px;
+    color: white;
+    font-size: larger;
+    font-family: system-ui;
+    letter-spacing: 1px;
+    opacity: 0.6;
+
+}
+
+.employees_btn {
+    text-decoration: none;
+    padding-top: 20px;
+    padding-left: 15px;
+    color: white;
+    font-size: larger;
+    font-family: system-ui;
+    letter-spacing: 1px;
+    opacity: 0.6;
+}
+
+.link_a a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: rgb(116, 204, 252);
+    opacity: 0, 6;
+}
+
+.link_a a:hover {
+    text-decoration: none;
+    color: gray;
+
+}
+
+.link_a {
+    margin-left: 56px;
+    margin-top: 40px;
+    padding-bottom: 50px;
+}
+
+.img_employee {
+    display: flex;
+    max-width: 300px;
+    max-height: 300px;
+    margin-left: 50px;
+  
+    
+}
+
+.img {
+    max-width: 300px;
+    display: block;
+    border: 1.5px rgb(199, 196, 196) solid;
+    border-radius: 5px;
+}
+
+.img_employee p{
+    font-size: larger;
+    font-weight: lighter;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.choose_file_button{
+    margin-top: 85px;
+    margin-left: 45px;
+    display: flex;
+}
+
+.choose_btn{
+    background-color: rgb(233, 236, 239);
+    border: 1px rgb(108, 108, 108) solid;
+    border-radius: 6px 0px 0px 6px;
+    opacity: 0.9;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.choose_btn a{
+    text-decoration: none;
+    color: black;
+    margin-left: 9px;
+   
+    
+    margin-right: 9px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+}
+
+.no_chosen{
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    border: 1px rgb(108, 108, 108) solid;
+    border-radius:  0px 6px 6px 0px ;
+    padding-top: 7px;
+    padding-right: 50px;
+    padding-left: 40px;
+    text-align: center;
+}
+
+.edit_row_name {
+    font-weight: lighter;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 33px;
+
+  
+}
+
+.edit_row_name div{
+    padding-top: 24px;
+}
+
+.edit_row_name_input{
+    margin-left: 45px;
+    margin-top: 58px;
+    
+    
+}
+
+.edit_row_name_input input{
+    border-radius: 6px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    width: 600px;
+    font-size: 25px;
+    padding-left: 17px;
+    border-color: rgb(132, 134, 133);
+    
+}
+
+.workspace_input{
+    display: flex;
+    width: 50px!important;
+    white-space: nowrap;
+
+}
+
+.workspace_input input{ 
+    display: flex;
+    width: 100px!important;
+    
+    
+}
+.workspace_input  a{ 
+  color: rgb(116, 204, 252);
+  font-weight: lighter;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  margin-top: 4px;
+  margin-left: 10px;
+    
+    
+}
+
+.cancel_and_save_btn{
+    display: flex;
+    margin-left: 1200px;
+    
+}
+.cancel_and_save_btn a{
+    text-decoration: none;
+
+}
+
+.cancel_btn{
+    opacity: 0.6;
+    border-radius: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+    border: 1px black solid;
+}
+
+.save_btn{
+    background-color: rgb(0, 111, 248);
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    border-radius: 4px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-left: 15px;
+
+}
+.save_btn a{color: white;}

@@ -19,20 +19,23 @@
     text-decoration: none;
     padding-top: 20px;
     padding-left: 10px;
-    color: rgb(201, 200, 200);
+    color: white;
     font-size: larger;
     font-family: system-ui;
     letter-spacing: 1px;
+    opacity: 0.6;
+   
 }
 
 .employees_btn{
     text-decoration: none;
     padding-top: 20px;
     padding-left: 15px;
-    color: rgb(201, 200, 200);
+    color: white;
     font-size: larger;
     font-family: system-ui;
     letter-spacing: 1px;
+    opacity: 0.6;
 }
 
 .main_info{
